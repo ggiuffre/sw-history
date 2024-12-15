@@ -1,4 +1,4 @@
-# Concepts
+# History of load balancing
 
 
 ## Round-robin DNS routing
@@ -15,7 +15,7 @@ Open problems:
 
 ## Load balancing
 
-Traffic is handled by a reverse proxy that manages a pool of web servers.
+Traffic is handled by a reverse proxy that represents a cluster of web servers.
 For each server, the proxy has knowledge of whether it's up or down.
 
 Problems that it solves:
