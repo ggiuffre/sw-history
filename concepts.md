@@ -1,0 +1,11 @@
+# Concepts
+
+
+## High availability
+
+...
+
+
+## Scalability
+
+...
