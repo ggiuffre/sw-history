@@ -7,7 +7,7 @@ Represent information as a graph of static documents. Made for scientific
 documents.
 
 Problems that is solves:
-* share information [...]
+* share information
 
 Open problems:
 * documents are static, not customizable based on request parameters
@@ -61,9 +61,9 @@ Open problems:
   and programs have to modify the DOM in an unstructured way
 
 
-## Reactive programming
+## Virtual DOM / Reactive programming
 
-The view is just a function of state. Views react to state changes.
+The view is just a function of the state. Views react to state changes.
 Applications are a composition of multiple views, possibly nested. Views bring
 together HTML, CSS and JS so that developers can now build applications with
 actually good UX.
@@ -71,11 +71,19 @@ actually good UX.
 Problems that it solves:
 * Developer experience doesn't suck anymore; we basically went from imperative to declarative
 
+Open problems:
+* React is not very opinionated, anything beyond a simple website is complex
+  to maintain
+
 
 ## Single-page applications
 
-E.g. create-react-app, Parcel, Angular... basically a response to the insane
-complexity that comes up if you try to use pure React for a production app [...]
+Frameworks to create an entire web site as a single page, e.g.
+create-react-app, Parcel... basically a response to the insane
+complexity that comes up if you try to use pure React in a production app.
+
+Problems that it solves:
+* writing a production website is now easy
 
 Open problems:
 * bundle size quickly gets too big -> bad for slow connections or small CPUs
